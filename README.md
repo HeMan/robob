@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HeMan/robob.svg?branch=master)](https://travis-ci.org/HeMan/robob)
+
 # Description
 The code in this repo is a complete catkin workspace. IS has all nessesary code and docs to get an example robot car to run with the Robot Operating System - ROS. The robot will be controlled via a USB joystick. Its part of a workshop material to help friends get started with ROS and to make awesome things with robots.
 
