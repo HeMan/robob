@@ -52,8 +52,8 @@ class TestGenOne(unittest.TestCase):
         self.assertEqual(1, 1)
     def test_notequal(self):
         self.assertNotEqual(1, 2)
-    def test_fail(self):
-        self.assertNotEqual(1, 1)
+    #def test_fail(self):
+    #    self.assertNotEqual(1, 1)
 
 if __name__ == '__main__':
     rostest.rosrun(PKG, NAME, TestGenOne, sys.argv)
