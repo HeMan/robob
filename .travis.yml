@@ -42,7 +42,7 @@
 
 ################################################################################
 
-# Use ubuntu trusty (14.04) with sudo privileges.
+# Use ubuntu trusty (16.04) with sudo privileges.
 dist: xenial
 sudo: required
 language:
