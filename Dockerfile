@@ -1,9 +1,9 @@
-FROM ros:kinetic
-ARG rosversion=kinetic
+FROM ros:lunar
+ARG rosversion=lunar
 RUN apt update; apt upgrade -y
-RUN apt install -y sudo tmux less
-RUN apt install -y arduino-mk \         
-                   ros-$rosversion-joy-teleop \
-                   ros-$rosversion-teleop-twist-joy \
+RUN apt install -y sudo less libusb-dev
+RUN apt install -y \
                    ros-$rosversion-joy \
+                   ros-$rosversion-joy-teleop \
+                   ros-$rosversion-roslint \
                    ros-$rosversion-rosserial-arduino
