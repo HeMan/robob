@@ -1,0 +1,4 @@
+git subtree add --prefix=src/teleop_twist_joy https://github.com/ros-teleop/teleop_twist_joy.git indigo-devel --squash
+git subtree add --prefix=src/rosserial https://github.com/ros-drivers/rosserial.git jade-devel --squash
+git subtree add --prefix=src/roslint https://github.com/ros/roslint master --squash
+git subtree add --prefix=src/joystick_drivers https://github.com/ros-drivers/joystick_drivers.git master --squash
